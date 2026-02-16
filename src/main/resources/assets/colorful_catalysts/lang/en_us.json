@@ -1,0 +1,13 @@
+{
+  "itemGroup.colorful_catalysts": "Example Mod Tab",
+  "block.colorful_catalysts.example_block": "Example Block",
+  "item.colorful_catalysts.example_item": "Example Item",
+
+  "colorful_catalysts.configuration.title": "Create: Colorful Catalysts Configs",
+  "colorful_catalysts.configuration.section.colorful_catalysts.common.toml": "Create: Colorful Catalysts Configs",
+  "colorful_catalysts.configuration.section.colorful_catalysts.common.toml.title": "Create: Colorful Catalysts Configs",
+  "colorful_catalysts.configuration.items": "Item List",
+  "colorful_catalysts.configuration.logDirtBlock": "Log Dirt Block",
+  "colorful_catalysts.configuration.magicNumberIntroduction": "Magic Number Text",
+  "colorful_catalysts.configuration.magicNumber": "Magic Number"
+}
