@@ -22,6 +22,7 @@ repositories {
     maven { url = "https://maven.ithundxr.dev/snapshots" } // Registrate
     maven { url = "https://maven.dragons.plus/releases" } // DragonsPlus, CEI
     maven { url = "https://maven.fallenbreath.me/releases" } // Conditional Mixin
+    maven { url = "https://github.com/hlysine/create_connected/releases" } //Connected
 }
 
 base {
