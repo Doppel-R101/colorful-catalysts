@@ -45,6 +45,7 @@ public class CreateColorfulCatalysts {
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "colorful_catalysts" namespace
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
+    // required: 16 blocks
     // Creates a new Block with the id "colorful_catalysts:example_block", combining the namespace and path
     public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
     // Creates a new BlockItem with the id "colorful_catalysts:example_block", combining the namespace and path
