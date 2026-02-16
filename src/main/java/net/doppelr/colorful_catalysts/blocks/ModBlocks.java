@@ -1,29 +1,19 @@
 package net.doppelr.colorful_catalysts.blocks;
 
 import com.hlysine.create_connected.CCBlocks;
-import com.hlysine.create_connected.CreateConnected;
 import com.hlysine.create_connected.config.FeatureToggle;
 import com.simibubi.create.AllTags;
-import com.simibubi.create.api.registry.CreateRegistries;
-import com.simibubi.create.foundation.data.AssetLookup;
 import com.simibubi.create.foundation.data.CreateRegistrate;
-import com.tterrag.registrate.providers.DataGenContext;
-import com.tterrag.registrate.providers.RegistrateBlockstateProvider;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.doppelr.colorful_catalysts.CreateColorfulCatalysts;
 import net.doppelr.colorful_catalysts.WrenchableBlock;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.MapColor;
-import net.neoforged.neoforge.client.model.generators.ModelFile;
-
-import java.util.function.Function;
 
 import static com.simibubi.create.foundation.data.AssetLookup.partialBaseModel;
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
 import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
-import static net.doppelr.colorful_catalysts.CreateColorfulCatalysts.REGISTRATE;
 
 public class ModBlocks {
     private static final CreateRegistrate REGISTRATE = CreateColorfulCatalysts.REGISTRATE;
