@@ -1,5 +1,7 @@
 package net.doppelr.colorful_catalysts;
 
+import com.hlysine.create_connected.CCBlocks;
+import com.hlysine.create_connected.config.FeatureToggle;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.foundation.data.AssetLookup;
 import com.tterrag.registrate.util.entry.BlockEntry;
