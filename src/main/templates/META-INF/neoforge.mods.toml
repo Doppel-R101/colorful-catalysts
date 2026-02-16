@@ -98,19 +98,19 @@ Example mod description.
 
 # Adding Dragons Plus
 [[dependencies.${mod_id}]]
-    modID="create_dragons_plus"
+    modId="create_dragons_plus"
     type="required"
-    versionRange="[1.8.6,1.9.0]"
-    ordering="none"
-    side="both"
+    versionRange="[1.8.6,1.9.0)"
+    ordering="NONE"
+    side="BOTH"
 
 # Adding Connected
 [[dependencies.${mod_id}]]
-    modID="create_connected"
+    modId="create_connected"
     type="required"
-    versionRange="[1.1.13-mc1.21.1,1.2.0-mc1.21.1]"
-    ordering="none"
-    side="both"
+    versionRange="[1.1.13-mc1.21.1,1.2.0-mc1.21.1)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
