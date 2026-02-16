@@ -19,13 +19,13 @@ public class AllCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateColorfulCatalysts.MODID);
 
     public static final List<ItemProviderEntry<?, ?>> ITEMS = List.of(
-            ModBlocks.WHITE_DYING_FAN_CATALYST
+            ModBlocks.FAN_WHITE_DYING_CATALYST
     );
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MAIN = CREATIVE_MODE_TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.create_connected.main"))
             .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
-            .icon(ModBlocks.WHITE_DYING_FAN_CATALYST::asStack)
+            .icon(ModBlocks.FAN_WHITE_DYING_CATALYST::asStack)
             .build());
 
     public static void register(IEventBus eventBus) {
