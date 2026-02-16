@@ -99,7 +99,8 @@ Example mod description.
 # Adding Dragons Plus
 [[dependencies.${mod_id}]]
     modId="create_dragons_plus"
-    type="required"
+    #type="required"
+    type="optional"
     versionRange="[1.8.6,1.9.0)"
     ordering="NONE"
     side="BOTH"
@@ -107,7 +108,8 @@ Example mod description.
 # Adding Connected
 [[dependencies.${mod_id}]]
     modId="create_connected"
-    type="required"
+    #type="required"
+    type="optional"
     versionRange="[1.1.13-mc1.21.1,1.2.0-mc1.21.1)"
     ordering="NONE"
     side="BOTH"

@@ -1,5 +1,10 @@
 package net.doppelr.colorful_catalysts;
 
+import com.simibubi.create.AllTags;
+import com.simibubi.create.foundation.data.AssetLookup;
+import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.tterrag.registrate.util.entry.BlockEntry;
+import net.minecraft.client.renderer.RenderType;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -31,13 +36,19 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
+import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
+
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(CreateColorfulCatalysts.MODID)
+
 public class CreateColorfulCatalysts {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "colorful_catalysts";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
+
+    static final CreateRegistrate REGISTRATE = CreateRegistrate.create(MODID);
     // Create a Deferred Register to hold Blocks which will all be registered under the "colorful_catalysts" namespace
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
     // Create a Deferred Register to hold Items which will all be registered under the "colorful_catalysts" namespace
@@ -46,8 +57,11 @@ public class CreateColorfulCatalysts {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
     // required: 16 blocks
+    // Order: white, light gray, gray, black, brown, red, orange, yellow, lime, green, cyan, light blue, blue, purple, magenta, pink
     // Creates a new Block with the id "colorful_catalysts:example_block", combining the namespace and path
     public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
+
+
     // Creates a new BlockItem with the id "colorful_catalysts:example_block", combining the namespace and path
     public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("example_block", EXAMPLE_BLOCK);
 
