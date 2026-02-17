@@ -20,7 +20,7 @@ public class ModBlocks {
     // required: 16 blocks
     // Order: white, light gray, gray, black, brown, red, orange, yellow, lime, green, cyan, light blue, blue, purple, magenta, pink
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_WHITE_CATALYST = REGISTRATE.block("fan_dying_white_catalyst.json", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYING_WHITE_CATALYST = REGISTRATE.block("fan_dying_white_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
