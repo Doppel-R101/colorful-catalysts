@@ -7,28 +7,40 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-import static net.doppelr.colorful_catalysts.CreateColorfulCatalysts.modEventBus;
-
-//import static com.hlysine.create_connected.CreateConnected.modEventBus;
-
 public class AllCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateColorfulCatalysts.MODID);
 
     public static final List<ItemProviderEntry<?, ?>> ITEMS = List.of(
-            ModBlocks.FAN_DYING_WHITE_CATALYST
+            ModBlocks.FAN_DYING_WHITE_CATALYST,
+            ModBlocks.FAN_DYING_LIGHT_GRAY_CATALYST,
+            ModBlocks.FAN_DYING_GRAY_CATALYST,
+            ModBlocks.FAN_DYING_BLACK_CATALYST,
+            ModBlocks.FAN_DYING_RED_CATALYST,
+            ModBlocks.FAN_DYING_ORANGE_CATALYST,
+            ModBlocks.FAN_DYING_YELLOW_CATALYST,
+            ModBlocks.FAN_DYING_LIME_CATALYST,
+            ModBlocks.FAN_DYING_GREEN_CATALYST,
+            ModBlocks.FAN_DYING_CYAN_CATALYST,
+            ModBlocks.FAN_DYING_LIGHT_BLUE_CATALYST,
+            ModBlocks.FAN_DYING_BLUE_CATALYST,
+            ModBlocks.FAN_DYING_PURPLE_CATALYST,
+            ModBlocks.FAN_DYING_MAGENTA_CATALYST,
+            ModBlocks.FAN_DYING_PINK_CATALYST
     );
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MAIN = CREATIVE_MODE_TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.create_colorful_catalysts.main"))
             .withTabsBefore(com.simibubi.create.AllCreativeModeTabs.BASE_CREATIVE_TAB.getKey())
-            //.icon(ModBlocks.FAN_DYING_WHITE_CATALYST::asStack)
+            .icon(ModBlocks.FAN_DYING_RAINBOW_CATALYST::asStack)
+            .displayItems(new DisplayItemsGenerator(ITEMS))
             .build());
 
     public static void register(IEventBus modEventBus) {
