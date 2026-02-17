@@ -34,12 +34,14 @@ public class CreateColorfulCatalysts {
                 .setTooltipModifierFactory(item -> new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE)
                         .andThen(TooltipModifier.mapNull(KineticStats.create(item))));
     }
-    // The constructor for the mod class is the first code that is run when your mod is loaded.
-    // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public CreateColorfulCatalysts(IEventBus eventBus, ModContainer modContainer) {
         modEventBus = eventBus;
+        REGISTRATE.registerEventListeners(modEventBus);
+
+
         REGISTRATE.setCreativeTab(AllCreativeModeTabs.MAIN);
         ModBlocks.register();
+        AllCreativeModeTabs.register(modEventBus);
 
     }
 
