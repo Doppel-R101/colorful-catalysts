@@ -7,7 +7,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.jetbrains.annotations.NotNull;
@@ -23,6 +22,7 @@ public class AllCreativeModeTabs {
             ModBlocks.FAN_DYING_LIGHT_GRAY_CATALYST,
             ModBlocks.FAN_DYING_GRAY_CATALYST,
             ModBlocks.FAN_DYING_BLACK_CATALYST,
+            ModBlocks.FAN_DYING_BROWN_CATALYST,
             ModBlocks.FAN_DYING_RED_CATALYST,
             ModBlocks.FAN_DYING_ORANGE_CATALYST,
             ModBlocks.FAN_DYING_YELLOW_CATALYST,
