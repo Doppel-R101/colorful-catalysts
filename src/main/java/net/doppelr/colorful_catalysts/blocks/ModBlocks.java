@@ -5,15 +5,19 @@ import com.hlysine.create_connected.config.FeatureToggle;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.foundation.data.AssetLookup;
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.tterrag.registrate.providers.ProviderType;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.doppelr.colorful_catalysts.CreateColorfulCatalysts;
 import net.doppelr.colorful_catalysts.WrenchableBlock;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.material.MapColor;
+import plus.dragons.createdragonsplus.common.registry.CDPDataMaps;
 
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
 import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
+import static plus.dragons.createdragonsplus.common.registry.CDPFluids.COMMON_TAGS;
 
 public class ModBlocks {
     private static final CreateRegistrate REGISTRATE = CreateColorfulCatalysts.REGISTRATE;
@@ -33,10 +37,13 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
+            .setData(ProviderType.DATA_MAP, (ctx, prov) -> prov
+                    .builder(CDPDataMaps.FLUID_FAN_COLORING_CATALYSTS)
+                    .add(COMMON_TAGS.dyesByColor.get(DyeColor.WHITE), DyeColor.WHITE, false))
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_LIGHT_GRAY_CATALYST = REGISTRATE.block("fan_dying_light_gray_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -50,10 +57,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_GRAY_CATALYST = REGISTRATE.block("fan_dying_gray_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -67,10 +74,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_BLACK_CATALYST = REGISTRATE.block("fan_dying_black_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -84,10 +91,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_BROWN_CATALYST = REGISTRATE.block("fan_dying_brown_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -101,10 +108,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_RED_CATALYST = REGISTRATE.block("fan_dying_red_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -118,10 +125,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_ORANGE_CATALYST = REGISTRATE.block("fan_dying_orange_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -135,10 +142,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_YELLOW_CATALYST = REGISTRATE.block("fan_dying_yellow_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -152,10 +159,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_LIME_CATALYST = REGISTRATE.block("fan_dying_lime_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -169,10 +176,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_GREEN_CATALYST = REGISTRATE.block("fan_dying_green_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -186,10 +193,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_CYAN_CATALYST = REGISTRATE.block("fan_dying_cyan_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -203,10 +210,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_LIGHT_BLUE_CATALYST = REGISTRATE.block("fan_dying_light_blue_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -220,10 +227,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_BLUE_CATALYST = REGISTRATE.block("fan_dying_blue_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -237,10 +244,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_PURPLE_CATALYST = REGISTRATE.block("fan_dying_purple_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -254,10 +261,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_MAGENTA_CATALYST = REGISTRATE.block("fan_dying_magenta_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -271,10 +278,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_PINK_CATALYST = REGISTRATE.block("fan_dying_pink_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -288,10 +295,10 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();
+
     public static final BlockEntry<WrenchableBlock> FAN_DYING_RAINBOW_CATALYST = REGISTRATE.block("fan_dying_rainbow_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
@@ -305,7 +312,6 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            //.tag(AllTags.AllBlockTags.FAN_PROCESSING_CATALYSTS_BLASTING.tag)
             .item()
             .transform(customItemModel())
             .register();

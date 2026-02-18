@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create_connected:empty_fan_catalyst"
+    },
+    {
+      "item": "garnished:gray_mastic_resin_bucket"
+    }
+  ],
+  "results": [
+    {
+      "id": "colorful_catalysts:fan_dying_gray_catalyst"
+    }
+  ]
+}

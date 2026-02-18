@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create_connected:empty_fan_catalyst"
+    },
+    {
+      "item": "create_dragons_plus:white_dye_bucket"
+    }
+  ],
+  "results": [
+    {
+      "id": "colorful_catalysts:fan_dying_white_catalyst"
+    }
+  ]
+}
