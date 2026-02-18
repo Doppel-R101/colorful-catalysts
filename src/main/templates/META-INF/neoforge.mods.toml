@@ -116,7 +116,7 @@ Example mod description.
 [[dependencies.${mod_id}]]
     modId="garnished"
     type="optional"
-    versionRange="[2.1.1+1.21.1-neoforge,2.2.0+1.21.1-neoforge)"
+    versionRange="[2.1.8,2.2.0)"
 
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares

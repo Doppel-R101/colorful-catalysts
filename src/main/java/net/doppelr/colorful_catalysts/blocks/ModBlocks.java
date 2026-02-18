@@ -13,11 +13,11 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.material.MapColor;
-import plus.dragons.createdragonsplus.common.registry.CDPDataMaps;
+//import plus.dragons.createdragonsplus.common.registry.CDPDataMaps;
 
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
 import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
-import static plus.dragons.createdragonsplus.common.registry.CDPFluids.COMMON_TAGS;
+//import static plus.dragons.createdragonsplus.common.registry.CDPFluids.COMMON_TAGS;
 
 public class ModBlocks {
     private static final CreateRegistrate REGISTRATE = CreateColorfulCatalysts.REGISTRATE;
@@ -37,9 +37,9 @@ public class ModBlocks {
             .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
             .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
-            .setData(ProviderType.DATA_MAP, (ctx, prov) -> prov
-                    .builder(CDPDataMaps.FLUID_FAN_COLORING_CATALYSTS)
-                    .add(COMMON_TAGS.dyesByColor.get(DyeColor.WHITE), DyeColor.WHITE, false))
+            //.setData(ProviderType.DATA_MAP, (ctx, prov) -> prov
+              //      .builder(CDPDataMaps.FLUID_FAN_COLORING_CATALYSTS)
+              //      .add(COMMON_TAGS.dyesByColor.get(DyeColor.WHITE), DyeColor.WHITE, false))
             .item()
             .transform(customItemModel())
             .register();
