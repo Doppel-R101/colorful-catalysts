@@ -19,21 +19,6 @@
   "block.colorful_catalysts.fan_dyeing_pink_catalyst": "Pink Fan Dyeing Catalyst",
   "block.colorful_catalysts.fan_dyeing_rainbow_catalyst": "Rainbow colored Catalyst",
 
-  "tag.block.garnished.fan_processing_catalysts.dye.white": "White Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.light_gray": "Light Gray Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.gray": "Gray Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.black": "Black Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.brown": "Brown Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.red": "Red Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.orange": "Orange Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.yellow": "Yellow Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.lime": "Lime Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.green": "Green Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.cyan": "Cyan Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.light_blue": "Light Blue Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.blue": "BLue Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.purple": "Purple Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.magenta": "Magenta Bulk Dyeing Catalysts",
-  "tag.block.garnished.fan_processing_catalysts.dye.pink": "Pink Bulk Dyeing Catalysts"
+  "tag.item.colorful_catalysts.dyed_catalysts": "Dyed Fan Catalyst"
 
 }
