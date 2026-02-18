@@ -79,7 +79,7 @@ public class CreateColorfulCatalysts {
         return REGISTRATE;
     }
 
-    public static ResourceLocation asResource(String path) {
+    public static ResourceLocation rl(String path) {
         return ResourceLocation.fromNamespaceAndPath(MODID, path);
     }
 }

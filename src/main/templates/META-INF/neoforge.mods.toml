@@ -99,8 +99,9 @@ Example mod description.
 # Adding Dragons Plus
 [[dependencies.${mod_id}]]
     modId="create_dragons_plus"
-    type="optional"
-    versionRange="[1.8.6,1.9.0)"
+    type="incompatible"
+    versionRange=""
+    reason="Until the bulk coloring process is openend up to tag usage by the Dragons Plus developers, I'm unable to support the mod."
     ordering="NONE"
     side="BOTH"
 
