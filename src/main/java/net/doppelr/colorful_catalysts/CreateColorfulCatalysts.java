@@ -9,6 +9,8 @@ import net.doppelr.colorful_catalysts.blocks.ModBlocks;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
+import net.neoforged.fml.ModList;
+import net.neoforged.fml.event.lifecycle.FMLConstructModEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -36,6 +38,7 @@ public class CreateColorfulCatalysts {
     }
     public CreateColorfulCatalysts(IEventBus eventBus, ModContainer modContainer) {
         modEventBus = eventBus;
+        modEventBus.addListener(this::checkDependencies);
         REGISTRATE.registerEventListeners(modEventBus);
 
 
@@ -43,6 +46,33 @@ public class CreateColorfulCatalysts {
         ModBlocks.register();
         AllCreativeModeTabs.register(modEventBus);
 
+    }
+
+    private void checkDependencies(final FMLConstructModEvent event) {
+        boolean hasDragonsPlus = ModList.get().isLoaded("create_dragons_plus");
+        boolean hasGarnished = ModList.get().isLoaded("garnished");
+
+        if (!hasDragonsPlus && !hasGarnished) {
+            throw new MissingDependencyException();
+        }
+
+    }
+
+    private static class MissingDependencyException extends RuntimeException {
+        public MissingDependencyException() {
+            super(String.join("\n",
+                    "",
+                    "=========================================",
+                    "Missing required dependencies!",
+                    "=========================================",
+                    CreateColorfulCatalysts.MODID + " requires at least one of the following mods:",
+                    "- Create: Dragons Plus (create_dragons_plus)",
+                    "- Create: Garnished (garnished)",
+                    "",
+                    "Please install either one or both of these mods and restart the game.",
+                    "========================================="
+            ));
+        }
     }
 
     public static CreateRegistrate getRegistrate() {

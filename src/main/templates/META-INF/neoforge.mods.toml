@@ -99,7 +99,6 @@ Example mod description.
 # Adding Dragons Plus
 [[dependencies.${mod_id}]]
     modId="create_dragons_plus"
-    #type="required"
     type="optional"
     versionRange="[1.8.6,1.9.0)"
     ordering="NONE"
@@ -108,11 +107,16 @@ Example mod description.
 # Adding Connected
 [[dependencies.${mod_id}]]
     modId="create_connected"
-    #type="required"
-    type="optional"
+    type="required"
     versionRange="[1.1.13-mc1.21.1,1.2.0-mc1.21.1)"
     ordering="NONE"
     side="BOTH"
+
+# Adding Garnished
+[[dependencies.${mod_id}]]
+    modId="garnished"
+    type="optional"
+    versionRange="[2.1.1+1.21.1-neoforge,2.2.0+1.21.1-neoforge)"
 
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
