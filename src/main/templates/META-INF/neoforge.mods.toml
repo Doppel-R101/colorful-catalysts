@@ -117,7 +117,7 @@ Bridging Create: Connected and Create: Garnished by adding catalysts for bulk dy
 [[dependencies.${mod_id}]]
     modId="garnished"
     type="optional"
-    versionRange="[2.1.8,2.2.0)"
+    versionRange="[2.1.9,2.2.0)"
 
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
