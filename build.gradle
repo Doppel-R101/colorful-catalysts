@@ -144,7 +144,7 @@ dependencies {
     implementation("plus.dragons.createdragonsplus:create-dragons-plus-${minecraft_version}:${create_dragons_plus_version}")
     implementation("curse.maven:createdconnected-947914:7593837")
 
-    implementation("maven.modrinth:6e2SlzR4:2.1.8+1.21.1-neoforged")
+    implementation("maven.modrinth:6e2SlzR4:2.1.9+1.21.1-neoforged")
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
