@@ -24,7 +24,7 @@ public class ModBlocks {
     // required: 16 blocks
     // Order: white, light gray, gray, black, brown, red, orange, yellow, lime, green, cyan, light blue, blue, purple, magenta, pink
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_WHITE_CATALYST = REGISTRATE.block("fan_dying_white_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_WHITE_CATALYST = REGISTRATE.block("fan_dyeing_white_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -44,7 +44,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_LIGHT_GRAY_CATALYST = REGISTRATE.block("fan_dying_light_gray_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_LIGHT_GRAY_CATALYST = REGISTRATE.block("fan_dyeing_light_gray_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -61,7 +61,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_GRAY_CATALYST = REGISTRATE.block("fan_dying_gray_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_GRAY_CATALYST = REGISTRATE.block("fan_dyeing_gray_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -78,7 +78,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_BLACK_CATALYST = REGISTRATE.block("fan_dying_black_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_BLACK_CATALYST = REGISTRATE.block("fan_dyeing_black_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -95,7 +95,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_BROWN_CATALYST = REGISTRATE.block("fan_dying_brown_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_BROWN_CATALYST = REGISTRATE.block("fan_dyeing_brown_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -112,7 +112,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_RED_CATALYST = REGISTRATE.block("fan_dying_red_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_RED_CATALYST = REGISTRATE.block("fan_dyeing_red_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -129,7 +129,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_ORANGE_CATALYST = REGISTRATE.block("fan_dying_orange_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_ORANGE_CATALYST = REGISTRATE.block("fan_dyeing_orange_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -146,7 +146,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_YELLOW_CATALYST = REGISTRATE.block("fan_dying_yellow_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_YELLOW_CATALYST = REGISTRATE.block("fan_dyeing_yellow_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -163,7 +163,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_LIME_CATALYST = REGISTRATE.block("fan_dying_lime_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_LIME_CATALYST = REGISTRATE.block("fan_dyeing_lime_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -180,7 +180,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_GREEN_CATALYST = REGISTRATE.block("fan_dying_green_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_GREEN_CATALYST = REGISTRATE.block("fan_dyeing_green_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -197,7 +197,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_CYAN_CATALYST = REGISTRATE.block("fan_dying_cyan_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_CYAN_CATALYST = REGISTRATE.block("fan_dyeing_cyan_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -214,7 +214,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_LIGHT_BLUE_CATALYST = REGISTRATE.block("fan_dying_light_blue_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_LIGHT_BLUE_CATALYST = REGISTRATE.block("fan_dyeing_light_blue_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -231,7 +231,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_BLUE_CATALYST = REGISTRATE.block("fan_dying_blue_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_BLUE_CATALYST = REGISTRATE.block("fan_dyeing_blue_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -248,7 +248,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_PURPLE_CATALYST = REGISTRATE.block("fan_dying_purple_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_PURPLE_CATALYST = REGISTRATE.block("fan_dyeing_purple_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -265,7 +265,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_MAGENTA_CATALYST = REGISTRATE.block("fan_dying_magenta_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_MAGENTA_CATALYST = REGISTRATE.block("fan_dyeing_magenta_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -282,7 +282,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_PINK_CATALYST = REGISTRATE.block("fan_dying_pink_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_PINK_CATALYST = REGISTRATE.block("fan_dyeing_pink_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
@@ -299,7 +299,7 @@ public class ModBlocks {
             .transform(customItemModel())
             .register();
 
-    public static final BlockEntry<WrenchableBlock> FAN_DYING_RAINBOW_CATALYST = REGISTRATE.block("fan_dying_rainbow_catalyst", WrenchableBlock::new)
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_RAINBOW_CATALYST = REGISTRATE.block("fan_dyeing_rainbow_catalyst", WrenchableBlock::new)
             .initialProperties(() -> Blocks.IRON_BLOCK)
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)

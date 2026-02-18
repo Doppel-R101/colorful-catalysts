@@ -16,22 +16,22 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     HolderLookup.RegistryLookup<Enchantment> registrylookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);
 
     protected void generate() {
-        dropSelf(ModBlocks.FAN_DYING_WHITE_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_LIGHT_GRAY_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_GRAY_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_BLACK_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_BROWN_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_RED_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_ORANGE_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_YELLOW_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_LIME_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_GREEN_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_CYAN_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_LIGHT_BLUE_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_BLUE_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_PURPLE_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_MAGENTA_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_PINK_CATALYST.get());
-        dropSelf(ModBlocks.FAN_DYING_RAINBOW_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_WHITE_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_LIGHT_GRAY_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_GRAY_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_BLACK_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_BROWN_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_RED_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_ORANGE_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_YELLOW_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_LIME_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_GREEN_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_CYAN_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_LIGHT_BLUE_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_BLUE_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_PURPLE_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_MAGENTA_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_PINK_CATALYST.get());
+        dropSelf(ModBlocks.FAN_DYEING_RAINBOW_CATALYST.get());
     }
 }

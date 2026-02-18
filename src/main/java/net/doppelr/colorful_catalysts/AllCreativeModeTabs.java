@@ -18,28 +18,28 @@ public class AllCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateColorfulCatalysts.MODID);
 
     public static final List<ItemProviderEntry<?, ?>> ITEMS = List.of(
-            ModBlocks.FAN_DYING_WHITE_CATALYST,
-            ModBlocks.FAN_DYING_LIGHT_GRAY_CATALYST,
-            ModBlocks.FAN_DYING_GRAY_CATALYST,
-            ModBlocks.FAN_DYING_BLACK_CATALYST,
-            ModBlocks.FAN_DYING_BROWN_CATALYST,
-            ModBlocks.FAN_DYING_RED_CATALYST,
-            ModBlocks.FAN_DYING_ORANGE_CATALYST,
-            ModBlocks.FAN_DYING_YELLOW_CATALYST,
-            ModBlocks.FAN_DYING_LIME_CATALYST,
-            ModBlocks.FAN_DYING_GREEN_CATALYST,
-            ModBlocks.FAN_DYING_CYAN_CATALYST,
-            ModBlocks.FAN_DYING_LIGHT_BLUE_CATALYST,
-            ModBlocks.FAN_DYING_BLUE_CATALYST,
-            ModBlocks.FAN_DYING_PURPLE_CATALYST,
-            ModBlocks.FAN_DYING_MAGENTA_CATALYST,
-            ModBlocks.FAN_DYING_PINK_CATALYST
+            ModBlocks.FAN_DYEING_WHITE_CATALYST,
+            ModBlocks.FAN_DYEING_LIGHT_GRAY_CATALYST,
+            ModBlocks.FAN_DYEING_GRAY_CATALYST,
+            ModBlocks.FAN_DYEING_BLACK_CATALYST,
+            ModBlocks.FAN_DYEING_BROWN_CATALYST,
+            ModBlocks.FAN_DYEING_RED_CATALYST,
+            ModBlocks.FAN_DYEING_ORANGE_CATALYST,
+            ModBlocks.FAN_DYEING_YELLOW_CATALYST,
+            ModBlocks.FAN_DYEING_LIME_CATALYST,
+            ModBlocks.FAN_DYEING_GREEN_CATALYST,
+            ModBlocks.FAN_DYEING_CYAN_CATALYST,
+            ModBlocks.FAN_DYEING_LIGHT_BLUE_CATALYST,
+            ModBlocks.FAN_DYEING_BLUE_CATALYST,
+            ModBlocks.FAN_DYEING_PURPLE_CATALYST,
+            ModBlocks.FAN_DYEING_MAGENTA_CATALYST,
+            ModBlocks.FAN_DYEING_PINK_CATALYST
     );
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MAIN = CREATIVE_MODE_TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.create_colorful_catalysts.main"))
             .withTabsBefore(com.simibubi.create.AllCreativeModeTabs.BASE_CREATIVE_TAB.getKey())
-            .icon(ModBlocks.FAN_DYING_RAINBOW_CATALYST::asStack)
+            .icon(ModBlocks.FAN_DYEING_RAINBOW_CATALYST::asStack)
             .displayItems(new DisplayItemsGenerator(ITEMS))
             .build());
 
