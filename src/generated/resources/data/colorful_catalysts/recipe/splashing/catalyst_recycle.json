@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "colorful_catalysts:dyed_catalysts"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_connected:empty_fan_catalyst"
+    }
+  ]
+}
