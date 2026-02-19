@@ -10,6 +10,7 @@ import net.doppelr.colorful_catalysts.CreateColorfulCatalysts;
 import net.doppelr.colorful_catalysts.WrenchableBlock;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.MapColor;
 
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
@@ -25,6 +26,8 @@ public class ModBlocks {
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
                     .requiresCorrectToolForDrops()
+                    .destroyTime(2.0f)
+                    .sound(SoundType.METAL)
                     .noOcclusion()
                     .isRedstoneConductor((state, level, pos) -> false)
             )
