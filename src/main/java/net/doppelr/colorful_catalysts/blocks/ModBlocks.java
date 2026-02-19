@@ -26,8 +26,6 @@ public class ModBlocks {
             .properties(p -> p
                     .mapColor(MapColor.TERRACOTTA_YELLOW)
                     .requiresCorrectToolForDrops()
-                    .destroyTime(2.0f)
-                    .sound(SoundType.METAL)
                     .noOcclusion()
                     .isRedstoneConductor((state, level, pos) -> false)
             )
