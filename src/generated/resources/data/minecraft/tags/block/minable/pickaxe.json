@@ -1,6 +1,22 @@
 {
   "replace": false,
   "values": [
-    "colorful_catalysts:fan_dyeing_white_catalyst"
+    "colorful_catalysts:fan_dyeing_white_catalyst",
+    "colorful_catalysts:fan_dyeing_light_gray_catalyst",
+    "colorful_catalysts:fan_dyeing_gray_catalyst",
+    "colorful_catalysts:fan_dyeing_black_catalyst",
+    "colorful_catalysts:fan_dyeing_brown_catalyst",
+    "colorful_catalysts:fan_dyeing_red_catalyst",
+    "colorful_catalysts:fan_dyeing_orange_catalyst",
+    "colorful_catalysts:fan_dyeing_yellow_catalyst",
+    "colorful_catalysts:fan_dyeing_lime_catalyst",
+    "colorful_catalysts:fan_dyeing_green_catalyst",
+    "colorful_catalysts:fan_dyeing_cyan_catalyst",
+    "colorful_catalysts:fan_dyeing_light_blue_catalyst",
+    "colorful_catalysts:fan_dyeing_blue_catalyst",
+    "colorful_catalysts:fan_dyeing_purple_catalyst",
+    "colorful_catalysts:fan_dyeing_magenta_catalyst",
+    "colorful_catalysts:fan_dyeing_pink_catalyst",
+    "colorful_catalysts:fan_dyeing_rainbow_catalyst"
   ]
 }

@@ -2,7 +2,6 @@ package net.doppelr.colorful_catalysts;
 
 import com.hlysine.create_connected.config.FeatureToggle;
 import com.tterrag.registrate.util.entry.ItemProviderEntry;
-import net.doppelr.colorful_catalysts.blocks.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

@@ -1,4 +1,4 @@
-package net.doppelr.colorful_catalysts.blocks;
+package net.doppelr.colorful_catalysts;
 
 import com.hlysine.create_connected.CCBlocks;
 import com.hlysine.create_connected.config.FeatureToggle;
@@ -6,11 +6,8 @@ import com.simibubi.create.AllTags;
 import com.simibubi.create.foundation.data.AssetLookup;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.BlockEntry;
-import net.doppelr.colorful_catalysts.CreateColorfulCatalysts;
-import net.doppelr.colorful_catalysts.WrenchableBlock;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.MapColor;
 
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
@@ -28,6 +25,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .noOcclusion()
                     .isRedstoneConductor((state, level, pos) -> false)
+                    .destroyTime(1.0f)
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
