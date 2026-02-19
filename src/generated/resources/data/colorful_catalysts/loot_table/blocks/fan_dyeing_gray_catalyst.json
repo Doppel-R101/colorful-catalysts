@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rools": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "colorful_catalysts:fan_dyeing_gray_catalyst"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "colorful_catalysts:blocks/fan_dyeing_gray_catalyst"
+}
