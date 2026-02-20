@@ -25,7 +25,6 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .noOcclusion()
                     .isRedstoneConductor((state, level, pos) -> false)
-                    .destroyTime(1.0f)
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
