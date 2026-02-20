@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rools": 0.0,
+      "bonus_rolls": 0.0,
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "colorful_catalysts:fan_dyeing_magenta_catalyst"
+          "name": "colorful_catalysts:fan_dyeing_black_catalyst"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "colorful_catalysts:blocks/fan_dyeing_magenta_catalyst"
+  "random_sequence": "colorful_catalysts:blocks/fan_dyeing_black_catalyst"
 }
