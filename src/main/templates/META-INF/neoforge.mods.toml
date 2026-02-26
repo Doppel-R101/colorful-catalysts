@@ -107,7 +107,7 @@ Bridging Create: Connected and Create: Garnished by adding catalysts for bulk dy
 # Adding Connected
 [[dependencies.${mod_id}]]
     modId="create_connected"
-    type="required"
+    type="optional"
     versionRange="[1.1.13-mc1.21.1,1.2.0-mc1.21.1)"
     ordering="NONE"
     side="BOTH"
