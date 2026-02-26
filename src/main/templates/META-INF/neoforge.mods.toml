@@ -99,9 +99,8 @@ Bridging Create: Connected and Create: Garnished by adding catalysts for bulk dy
 # Adding Dragons Plus
 [[dependencies.${mod_id}]]
     modId="create_dragons_plus"
-    type="incompatible"
-    versionRange=""
-    reason="Until the bulk coloring process is openend up to tag usage by the Dragons Plus developers, I'm unable to support the mod."
+    type="optional"
+    versionRange="[1.8.6,)"
     ordering="NONE"
     side="BOTH"
 
