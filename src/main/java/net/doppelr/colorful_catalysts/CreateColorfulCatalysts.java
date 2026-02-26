@@ -4,6 +4,7 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.item.ItemDescription;
 import com.simibubi.create.foundation.item.KineticStats;
 import com.simibubi.create.foundation.item.TooltipModifier;
+import com.tterrag.registrate.providers.ProviderType;
 import net.createmod.catnip.lang.FontHelper;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -42,9 +43,8 @@ public class CreateColorfulCatalysts {
 
 
         REGISTRATE.setCreativeTab(AllCreativeModeTabs.MAIN);
+        REGISTRATE.addDataGenerator(ProviderType.DATA_MAP, new ModDataMaps());
         ModBlocks.register();
-        AllCreativeModeTabs.register(modEventBus);
-
     }
 
     private void checkDependencies(final FMLConstructModEvent event) {

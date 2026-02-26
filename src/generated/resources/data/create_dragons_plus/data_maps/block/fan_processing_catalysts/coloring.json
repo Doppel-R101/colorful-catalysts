@@ -1,0 +1,148 @@
+{
+  "values": {
+    "colorful_catalysts:fan_dyeing_black_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "black"
+    },
+    "colorful_catalysts:fan_dyeing_blue_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "blue"
+    },
+    "colorful_catalysts:fan_dyeing_brown_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "brown"
+    },
+    "colorful_catalysts:fan_dyeing_cyan_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "cyan"
+    },
+    "colorful_catalysts:fan_dyeing_gray_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "gray"
+    },
+    "colorful_catalysts:fan_dyeing_green_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "green"
+    },
+    "colorful_catalysts:fan_dyeing_light_blue_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "light_blue"
+    },
+    "colorful_catalysts:fan_dyeing_light_gray_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "light_gray"
+    },
+    "colorful_catalysts:fan_dyeing_lime_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "lime"
+    },
+    "colorful_catalysts:fan_dyeing_magenta_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "magenta"
+    },
+    "colorful_catalysts:fan_dyeing_orange_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "orange"
+    },
+    "colorful_catalysts:fan_dyeing_pink_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "pink"
+    },
+    "colorful_catalysts:fan_dyeing_purple_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "purple"
+    },
+    "colorful_catalysts:fan_dyeing_red_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "red"
+    },
+    "colorful_catalysts:fan_dyeing_white_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "white"
+    },
+    "colorful_catalysts:fan_dyeing_yellow_catalyst": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create_dragons_plus"
+        }
+      ],
+      "neoforge:value": "yellow"
+    }
+  }
+}
