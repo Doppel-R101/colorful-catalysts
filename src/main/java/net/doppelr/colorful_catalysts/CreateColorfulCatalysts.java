@@ -39,12 +39,13 @@ public class CreateColorfulCatalysts {
     public CreateColorfulCatalysts(IEventBus eventBus, ModContainer modContainer) {
         modEventBus = eventBus;
         modEventBus.addListener(this::checkDependencies);
+        REGISTRATE.addDataGenerator(ProviderType.DATA_MAP, new ModDataMaps());
         REGISTRATE.registerEventListeners(modEventBus);
 
 
         REGISTRATE.setCreativeTab(AllCreativeModeTabs.MAIN);
-        REGISTRATE.addDataGenerator(ProviderType.DATA_MAP, new ModDataMaps());
         ModBlocks.register();
+        AllCreativeModeTabs.register(modEventBus);
     }
 
     private void checkDependencies(final FMLConstructModEvent event) {
