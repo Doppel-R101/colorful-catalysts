@@ -100,7 +100,7 @@ Bridging Create: Connected and Create: Garnished by adding catalysts for bulk dy
 [[dependencies.${mod_id}]]
     modId="create_dragons_plus"
     type="optional"
-    versionRange=""
+    versionRange="[1.8.6,)"
     ordering="NONE"
     side="BOTH"
 
