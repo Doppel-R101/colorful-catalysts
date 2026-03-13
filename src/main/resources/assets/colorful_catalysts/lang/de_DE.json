@@ -1,0 +1,24 @@
+{
+  "itemGroup.create_colorful_catalysts.main": "Create: Colorful Catalysts",
+
+  "block.colorful_catalysts.fan_dyeing_white_catalyst": "Weiß Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_light_gray_catalyst": "Hellgrau Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_gray_catalyst": "Grau Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_black_catalyst": "Schwarz Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_brown_catalyst": "Braun Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_red_catalyst": "Rot Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_orange_catalyst": "Orange Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_yellow_catalyst": "Gelb Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_lime_catalyst": "Hellgrün Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_green_catalyst": "Grün Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_cyan_catalyst": "Türkis Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_light_blue_catalyst": "Hellblau Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_blue_catalyst": "Blau Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_purple_catalyst": "Violett Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_magenta_catalyst": "Magenta Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_pink_catalyst": "Rosa Färbender Lüfter Katalysator",
+  "block.colorful_catalysts.fan_dyeing_rainbow_catalyst": "Bunter Katalysator",
+
+  "tag.item.colorful_catalysts.dyed_catalysts": "Gefärbte Lüfter Katalysatoren"
+
+}
