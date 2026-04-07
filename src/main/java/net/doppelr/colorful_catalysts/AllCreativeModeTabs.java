@@ -40,6 +40,9 @@ public class AllCreativeModeTabs {
             .withTabsBefore(com.simibubi.create.AllCreativeModeTabs.BASE_CREATIVE_TAB.getKey())
             .icon(ModBlocks.FAN_DYEING_RAINBOW_CATALYST::asStack)
             .displayItems(new DisplayItemsGenerator(ITEMS))
+            .displayItems(((itemDisplayParameters, output) -> {
+                output.accept(ModBlocks.CONCRETE_POWDER);
+            }))
             .build());
 
     public static void register(IEventBus modEventBus) {

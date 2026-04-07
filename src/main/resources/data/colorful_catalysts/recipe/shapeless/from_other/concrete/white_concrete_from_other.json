@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dyes/white"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:white_concrete"
+  }
+}

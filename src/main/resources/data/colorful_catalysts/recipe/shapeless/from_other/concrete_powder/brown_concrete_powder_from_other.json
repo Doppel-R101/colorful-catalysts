@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dyes/brown"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:brown_concrete_powder"
+  }
+}

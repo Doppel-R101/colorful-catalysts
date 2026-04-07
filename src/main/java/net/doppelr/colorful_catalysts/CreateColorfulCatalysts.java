@@ -44,7 +44,8 @@ public class CreateColorfulCatalysts {
 
 
         REGISTRATE.setCreativeTab(AllCreativeModeTabs.MAIN);
-        ModBlocks.register();
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
         AllCreativeModeTabs.register(modEventBus);
     }
 

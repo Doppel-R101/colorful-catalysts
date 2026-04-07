@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "colorful_catalysts:block/concrete_powder"
+      },
+      {
+        "model": "colorful_catalysts:block/concrete_powder",
+        "y": 90
+      },
+      {
+        "model": "colorful_catalysts:block/concrete_powder",
+        "y": 180
+      },
+      {
+        "model": "colorful_catalysts:block/concrete_powder",
+        "y": 270
+      }
+    ]
+  }
+}

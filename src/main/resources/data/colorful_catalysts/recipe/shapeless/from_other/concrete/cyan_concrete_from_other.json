@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dyes/cyan"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    },
+    {
+      "tag": "c:concretes"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:cyan_concrete"
+  }
+}
