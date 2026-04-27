@@ -16,32 +16,29 @@ public class AllCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateColorfulCatalysts.MODID);
 
-    public static final List<ItemProviderEntry<?, ?>> ITEMS = List.of(
-            ModBlocks.FAN_DYEING_WHITE_CATALYST,
-            ModBlocks.FAN_DYEING_LIGHT_GRAY_CATALYST,
-            ModBlocks.FAN_DYEING_GRAY_CATALYST,
-            ModBlocks.FAN_DYEING_BLACK_CATALYST,
-            ModBlocks.FAN_DYEING_BROWN_CATALYST,
-            ModBlocks.FAN_DYEING_RED_CATALYST,
-            ModBlocks.FAN_DYEING_ORANGE_CATALYST,
-            ModBlocks.FAN_DYEING_YELLOW_CATALYST,
-            ModBlocks.FAN_DYEING_LIME_CATALYST,
-            ModBlocks.FAN_DYEING_GREEN_CATALYST,
-            ModBlocks.FAN_DYEING_CYAN_CATALYST,
-            ModBlocks.FAN_DYEING_LIGHT_BLUE_CATALYST,
-            ModBlocks.FAN_DYEING_BLUE_CATALYST,
-            ModBlocks.FAN_DYEING_PURPLE_CATALYST,
-            ModBlocks.FAN_DYEING_MAGENTA_CATALYST,
-            ModBlocks.FAN_DYEING_PINK_CATALYST
-    );
-
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MAIN = CREATIVE_MODE_TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.create_colorful_catalysts.main"))
             .withTabsBefore(com.simibubi.create.AllCreativeModeTabs.BASE_CREATIVE_TAB.getKey())
             .icon(ModBlocks.FAN_DYEING_RAINBOW_CATALYST::asStack)
-            .displayItems(new DisplayItemsGenerator(ITEMS))
             .displayItems(((itemDisplayParameters, output) -> {
+                output.accept(ModBlocks.FAN_DYEING_WHITE_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_LIGHT_GRAY_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_GRAY_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_BLACK_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_BROWN_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_RED_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_ORANGE_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_YELLOW_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_LIME_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_GREEN_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_CYAN_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_LIGHT_BLUE_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_BLUE_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_PURPLE_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_MAGENTA_CATALYST);
+                output.accept(ModBlocks.FAN_DYEING_PINK_CATALYST);
                 output.accept(ModBlocks.CONCRETE_POWDER);
+
             }))
             .build());
 
