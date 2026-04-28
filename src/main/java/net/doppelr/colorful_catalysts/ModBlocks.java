@@ -322,8 +322,7 @@ public class ModBlocks {
             .register();
 
     public static final DeferredBlock<Block> CONCRETE_POWDER = registerBlock("concrete_powder",
-            () -> //new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_CONCRETE_POWDER)
-                    new ColoredFallingBlock(new ColorRGBA(14406560), BlockBehaviour.Properties.of().mapColor(MapColor.SAND).instrument(NoteBlockInstrument.SNARE).strength(0.5F).sound(SoundType.SAND)));
+            () -> new ColoredFallingBlock(new ColorRGBA(14406560), BlockBehaviour.Properties.of().mapColor(MapColor.SAND).instrument(NoteBlockInstrument.SNARE).strength(0.5F).sound(SoundType.SAND)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

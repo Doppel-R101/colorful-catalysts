@@ -38,7 +38,6 @@ public class AllCreativeModeTabs {
                 output.accept(ModBlocks.FAN_DYEING_MAGENTA_CATALYST);
                 output.accept(ModBlocks.FAN_DYEING_PINK_CATALYST);
                 output.accept(ModBlocks.CONCRETE_POWDER);
-
             }))
             .build());
 
@@ -46,16 +45,4 @@ public class AllCreativeModeTabs {
         CREATIVE_MODE_TABS.register(modEventBus);
     }
 
-
-    private record DisplayItemsGenerator(
-            List<ItemProviderEntry<?, ?>> items) implements CreativeModeTab.DisplayItemsGenerator {
-        @Override
-        public void accept(@NotNull CreativeModeTab.ItemDisplayParameters params, @NotNull CreativeModeTab.Output output) {
-            for (ItemProviderEntry<?, ?> item : items) {
-                if (FeatureToggle.isEnabled(item.getId())) {
-                    output.accept(item);
-                }
-            }
-        }
-    }
 }
