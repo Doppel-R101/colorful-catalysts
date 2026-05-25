@@ -1,8 +1,8 @@
 package net.doppelr.colorful_catalysts;
 
-import com.hlysine.create_connected.CCBlocks;
+
+import com.hlysine.create_connected.registries.CCBlocks;
 import com.hlysine.create_connected.config.FeatureToggle;
-import com.mojang.serialization.MapCodec;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.foundation.data.AssetLookup;
 import com.simibubi.create.foundation.data.CreateRegistrate;

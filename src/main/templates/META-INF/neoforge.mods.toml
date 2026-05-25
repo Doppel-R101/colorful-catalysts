@@ -92,7 +92,7 @@ Bridging Create: Connected and Create: Garnished by adding catalysts for bulk dy
 [[dependencies.${mod_id}]]
     modId="create"
     type="required"
-    versionRange="[6.0.9,6.1.0)"
+    versionRange="[6.0.10,6.1.0)"
     ordering="NONE"
     side="BOTH"
 
@@ -100,7 +100,7 @@ Bridging Create: Connected and Create: Garnished by adding catalysts for bulk dy
 [[dependencies.${mod_id}]]
     modId="create_dragons_plus"
     type="optional"
-    versionRange="[1.8.6,)"
+    versionRange="[1.8.6,1.9.0)"
     ordering="NONE"
     side="BOTH"
 
@@ -108,7 +108,7 @@ Bridging Create: Connected and Create: Garnished by adding catalysts for bulk dy
 [[dependencies.${mod_id}]]
     modId="create_connected"
     type="required"
-    versionRange="[1.1.13-mc1.21.1,1.2.0-mc1.21.1)"
+    versionRange="[1.2.0-mc1.21.1,1.3.0-mc1.21.1)"
     ordering="NONE"
     side="BOTH"
 
