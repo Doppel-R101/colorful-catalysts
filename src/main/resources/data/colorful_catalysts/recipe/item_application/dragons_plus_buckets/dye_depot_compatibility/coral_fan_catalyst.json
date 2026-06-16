@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "create_connected"
+      }
+    }
+  ],
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "create_dragons_plus:dye_depot_coral_dye_bucket"
+    }
+  ],
+  "results": [
+    {
+      "id": "colorful_catalysts:fan_dyeing_coral_catalyst"
+    }
+  ]
+}

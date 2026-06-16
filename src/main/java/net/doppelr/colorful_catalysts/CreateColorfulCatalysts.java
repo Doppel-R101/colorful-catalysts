@@ -38,7 +38,7 @@ public class CreateColorfulCatalysts {
     public CreateColorfulCatalysts(IEventBus eventBus, ModContainer modContainer) {
         modEventBus = eventBus;
         modEventBus.addListener(this::checkDependencies);
-        REGISTRATE.addDataGenerator(ProviderType.DATA_MAP, new ModDataMaps());
+        //REGISTRATE.addDataGenerator(ProviderType.DATA_MAP, new ModDataMaps());
         REGISTRATE.registerEventListeners(modEventBus);
 
 

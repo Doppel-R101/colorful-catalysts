@@ -1,10 +1,6 @@
 package net.doppelr.colorful_catalysts;
 
-
-import com.hlysine.create_connected.registries.CCBlocks;
-import com.hlysine.create_connected.config.FeatureToggle;
 import com.simibubi.create.AllTags;
-import com.simibubi.create.foundation.data.AssetLookup;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.client.renderer.RenderType;
@@ -24,6 +20,7 @@ import java.util.function.Supplier;
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
 import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
 
+@SuppressWarnings("removal")
 public class ModBlocks {
     private static final CreateRegistrate REGISTRATE = CreateColorfulCatalysts.REGISTRATE;
     // required: 16 blocks
@@ -43,8 +40,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -61,8 +56,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -79,8 +72,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -97,8 +88,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -115,8 +104,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -133,8 +120,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -151,8 +136,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -169,8 +152,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -187,8 +168,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -205,8 +184,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -223,8 +200,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -241,8 +216,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -259,8 +232,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -277,8 +248,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -295,8 +264,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -313,8 +280,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -331,8 +296,6 @@ public class ModBlocks {
             )
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(pickaxeOnly())
-            .transform(FeatureToggle.registerDependent(CCBlocks.EMPTY_FAN_CATALYST))
-            .blockstate((c, p) -> p.simpleBlock(c.getEntry(), AssetLookup.partialBaseModel(c, p)))
             .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
             .item()
             .transform(customItemModel())
@@ -341,6 +304,262 @@ public class ModBlocks {
     public static final DeferredBlock<Block> CONCRETE_POWDER = registerBlock("concrete_powder",
             () -> new ColoredFallingBlock(new ColorRGBA(14406560), BlockBehaviour.Properties.of().mapColor(MapColor.SAND).instrument(NoteBlockInstrument.SNARE).strength(0.5F).sound(SoundType.SAND)));
 
+    // Dye Depot Compatibility
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_AMBER_CATALYST = REGISTRATE.block("fan_dyeing_amber_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_AQUA_CATALYST = REGISTRATE.block("fan_dyeing_aqua_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_BEIGE_CATALYST = REGISTRATE.block("fan_dyeing_beige_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_CORAL_CATALYST = REGISTRATE.block("fan_dyeing_coral_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_FOREST_CATALYST = REGISTRATE.block("fan_dyeing_forest_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_GINGER_CATALYST = REGISTRATE.block("fan_dyeing_ginger_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_INDIGO_CATALYST = REGISTRATE.block("fan_dyeing_indigo_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_MAROON_CATALYST = REGISTRATE.block("fan_dyeing_maroon_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_MINT_CATALYST = REGISTRATE.block("fan_dyeing_mint_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_NAVY_CATALYST = REGISTRATE.block("fan_dyeing_navy_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_OLIVE_CATALYST = REGISTRATE.block("fan_dyeing_olive_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_ROSE_CATALYST = REGISTRATE.block("fan_dyeing_rose_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_SLATE_CATALYST = REGISTRATE.block("fan_dyeing_slate_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_TAN_CATALYST = REGISTRATE.block("fan_dyeing_tan_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_TEAL_CATALYST = REGISTRATE.block("fan_dyeing_teal_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
+
+    public static final BlockEntry<WrenchableBlock> FAN_DYEING_VERDANT_CATALYST = REGISTRATE.block("fan_dyeing_verdant_catalyst", WrenchableBlock::new)
+            .initialProperties(() -> Blocks.IRON_BLOCK)
+            .properties(p -> p
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .lightLevel(s -> 10)
+                    .isRedstoneConductor((state, level, pos) -> false)
+            )
+            .addLayer(() -> RenderType::cutoutMipped)
+            .transform(pickaxeOnly())
+            .tag(AllTags.AllBlockTags.FAN_TRANSPARENT.tag)
+            .item()
+            .transform(customItemModel())
+            .register();
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -17,9 +17,27 @@
   "block.colorful_catalysts.fan_dyeing_purple_catalyst": "Purple Fan Dyeing Catalyst",
   "block.colorful_catalysts.fan_dyeing_magenta_catalyst": "Magenta Fan Dyeing Catalyst",
   "block.colorful_catalysts.fan_dyeing_pink_catalyst": "Pink Fan Dyeing Catalyst",
+
+  "block.colorful_catalysts.fan_dyeing_amber_catalyst": "Amber Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_aqua_catalyst": "Aqua Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_beige_catalyst": "Beige Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_coral_catalyst": "Coral Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_forest_catalyst": "Forest Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_ginger_catalyst": "Ginger Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_indigo_catalyst": "Indigo Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_maroon_catalyst": "Maroon Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_mint_catalyst": "Mint Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_navy_catalyst": "Navy Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_olive_catalyst": "Olive Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_rose_catalyst": "Rose Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_slate_catalyst": "Slate Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_tan_catalyst": "Tan Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_teal_catalyst": "Teal Fan Dyeing Catalyst",
+  "block.colorful_catalysts.fan_dyeing_verdant_catalyst": "Verdant Fan Dyeing Catalyst",
+
   "block.colorful_catalysts.fan_dyeing_rainbow_catalyst": "Rainbow colored Catalyst",
   "block.colorful_catalysts.concrete_powder": "Concrete Powder",
 
-  "tag.item.colorful_catalysts.dyed_catalysts": "Dyed Fan Catalyst"
+  "tag.item.colorful_catalysts.dyed_catalysts": "Dyed Fan Catalysts"
 
 }

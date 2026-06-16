@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dyes/tan"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    },
+    {
+      "tag": "c:concrete_powders"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "dye_depot:tan_concrete_powder"
+  }
+}

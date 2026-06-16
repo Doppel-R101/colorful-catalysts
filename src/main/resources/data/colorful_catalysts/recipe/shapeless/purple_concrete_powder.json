@@ -4,7 +4,7 @@
   "group": "concrete_powder",
   "ingredients": [
     {
-      "item": "minecraft:purple_dye"
+      "tag": "c:dyes/purple"
     },
     {
       "item": "colorful_catalysts:concrete_powder"

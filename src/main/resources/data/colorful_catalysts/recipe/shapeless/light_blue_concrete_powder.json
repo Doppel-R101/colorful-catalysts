@@ -4,7 +4,7 @@
   "group": "concrete_powder",
   "ingredients": [
     {
-      "item": "minecraft:light_blue_dye"
+      "tag": "c:dyes/light_blue"
     },
     {
       "item": "colorful_catalysts:concrete_powder"

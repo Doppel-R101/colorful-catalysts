@@ -23,7 +23,17 @@ repositories {
     maven { url = "https://maven.dragons.plus/releases" } // DragonsPlus, CEI
     maven { url = "https://maven.fallenbreath.me/releases" } // Conditional Mixin
     maven { url = "https://cursemaven.com" }
-    maven { url = "https://api.modrinth.com/maven" }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 base {
@@ -142,9 +152,11 @@ dependencies {
     implementation("com.tterrag.registrate:Registrate:${registrate_version}")
 
     implementation("plus.dragons.createdragonsplus:create-dragons-plus-${minecraft_version}:${create_dragons_plus_version}")
-    implementation "curse.maven:create-connected-947914:8142873"
 
     implementation("maven.modrinth:6e2SlzR4:2.1.9+1.21.1-neoforged")
+    implementation("maven.modrinth:dye-depot:2.1.0")
+    // Connected
+    //implementation("maven.modrinth:create-connected:1.2.2-mc1.21.1")
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
